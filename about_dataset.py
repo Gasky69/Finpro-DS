@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 
 def about_dataset():
-    from streamlit_lottie import st_lottie
-    import requests
-
-    url = "https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json"
-    res = requests.get(url)
-    st_lottie(res.json(), height=300)
 
 
     # st.markdown("### 📌 Informasi Dataset")
@@ -77,3 +71,4 @@ def about_dataset():
     </ul>
     </div>
     """, unsafe_allow_html=True)
+
