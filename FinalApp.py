@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
 import about_dataset
 import Vizz
@@ -208,6 +206,7 @@ st.markdown(
     "<p style='text-align:center; color:gray;'>© 2026 | Data Science Final Project</p>",
     unsafe_allow_html=True
 )
+
 
 
 
