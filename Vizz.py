@@ -110,7 +110,7 @@ def chart():
     # =======================
     # Load Data
     # =======================
-    df = pd.read_csv("../Dataset/8. Taxi Trip Price.csv")
+    df = pd.read_csv("8. Taxi Trip Price.csv")
 
     # =======================
     # Session State
@@ -391,3 +391,4 @@ def chart():
 
 
 #==========================
+
